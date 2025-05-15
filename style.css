@@ -87,7 +87,7 @@ body.dark-mode   .card-container{background-color: #3c4247;}
   
   /* Photo de profil */
   .profile-photo {
-    width: 150px;
+    width: 170px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
