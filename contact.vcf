@@ -1,12 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
+N:Hamidi;Soumeya;;;
 FN:Soumeya Hamidi
 ORG:Sarl STC CO
 TITLE:Technico-commerciale
-TEL;WORK;VOICE:+21323525243
+TEL;TYPE=WORK,VOICE:+21323525243
 EMAIL:s.hamidi@stcco-dz.com
+ADR;TYPE=WORK:;;79 Lots, Les vergers;Bir Mourad Rais;;Algeria
 URL:http://www.stcco-dz.com/
-BROCHURE: https://heyzine.com/flip-book/b6d942a293.html
-ADR;WORK:;;79 Lots, Les vergers, Bir Mourad Rais;;;;
-NOTE:Your partner in control and measurement
+NOTE:Your partner in control and measurement\nBrochure: https://heyzine.com/flip-book/b6d942a293.html
+PHOTO;TYPE=JPEG;VALUE=URI:Photo%20Badge.jpg
+LOGO;TYPE=JPEG;VALUE=URI:téléchargement.png
 END:VCARD
