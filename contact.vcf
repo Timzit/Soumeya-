@@ -1,14 +1,20 @@
 BEGIN:VCARD
-VERSION:3.0
-N:Hamidi;Soumeya;;;
+VERSION:4.0
 FN:Soumeya Hamidi
-ORG:Sarl STC CO
-TITLE:Technico-commerciale
-TEL;TYPE=WORK,VOICE:+21323525243
-EMAIL:s.hamidi@stcco-dz.com
-ADR;TYPE=WORK:;;79 Lots, Les vergers;Bir Mourad Rais;;Algeria
-URL:http://www.stcco-dz.com/
-NOTE:Your partner in control and measurement\nBrochure: https://heyzine.com/flip-book/b6d942a293.html
-PHOTO;TYPE=JPEG;VALUE=URI:Photo%20Badge.jpg
-LOGO;TYPE=JPEG;VALUE=URI:téléchargement.png
+N:Hamidi;Soumeya;;;
+ORG:STC CO
+TITLE:Adjointe Responsable Division Eau & Dessalement
+TITLE;LANGUAGE=en: Deputy Water & Desalination Division Manager
+DIVISION:Division Eau et dessalement 
+DIVISION;LANGUAGE=en: Water & Desalination Division
+TEL;TYPE=CELL;PREF=1:+213770176413
+TEL;TYPE=WORK;PREF=2:+21323525243
+EMAIL;TYPE=WORK;PREF=1:s.hamidi@stcco-dz.com
+URL;TYPE=WORK:http://www.stcco-dz.com/
+ADR;TYPE=WORK:;;79 Lots, Les vergers;Bir Mourad Rais;Alger;16000;Algérie
+ADR;TYPE=WORK;LANGUAGE=en:;;79 Lots, Les vergers;Bir Mourad Rais;Algiers;16000;Algeria
+NOTE:Your Partner in control and measurement.
+NOTE;LANGUAGE=en:Your Partner in control and measurement.
+CATEGORIES:Instrumentation,Industrial Automation
+REV:20250122T120000Z
 END:VCARD
