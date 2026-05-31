@@ -30,37 +30,45 @@
           alt="Photo de profil"
           class="profile-photo"
         />
-        <h2>Soumeya Hamidi <span>Technico-commerciale</span></h2>
-        <hr class="separator" />
+        <h2>Soumeya Hamidi<span class="job-title">Adjointe Responsable Division O&G </span></h2>
+        <h6 class="division-title">Département Technico-Commercial</h6>
+        <hr class="separator"/>
         <p class="subtitle">Sarl STC CO</p>
         <p class="subtitle1">"Your partner in control and measurement"</p>
       </div>
 
       <div class="card-body">
-        <a href="tel:+213770176413" class="btn">📞 Téléphone</a>
-        <a href="tel:+21323525243" class="btn">📠 Fix</a>
-        <a href="mailto:s.hamidi@stcco-dz.com" class="btn">✉️ Email</a>
-        <a href="https://wa.me/213770176413" target="_blank" class="btn"
-          >💬 Whatsapp</a
-        >
-        <a href="http://www.stcco-dz.com/" target="_blank" class="btn"
-          >🌐 Site web</a
-        >
+        <a href="tel:+213770176413" class="btn phone-btn">📞 Téléphone</a>
+        <a href="tel:+21323525243" class="btn fax-btn">📠 Fix</a>
+        <a href="mailto:s.hamidi@stcco-dz.com" class="btn email-btn">✉️ Email</a>
+        <a href="https://wa.me/213770176413" target="_blank" class="btn whatsapp-btn">💬 WhatsApp</a>
+        <a href="http://www.stcco-dz.com/" target="_blank" class="btn website-btn">🌐 Site web</a>
         <a
           href="https://maps.google.com/?q=79+Lots,+Les+vergers,+Bir+Mourad+Rais"
           target="_blank"
-          class="btn"
+          class="btn address-btn"
           >📍 Adresse</a
         >
-        <a
-          href="https://heyzine.com/flip-book/b6d942a293.html"
-          download
-          class="btn"
-          >📘 Brochure</a
-        >
-        <a href="contact.vcf" download class="btn">📥 Télécharger Contact</a>
+        <div class="brochure-wrapper">
+          <a
+            href="https://heyzine.com/flip-book/f6c2853e6f.html"
+            target="_blank"
+                class="btn btn-brochure brochure-link"
+    id="brochure-link-fr"
+            >📘 Brochure</a
+          >
+          <a
+            href="./Brochure.pdf"
+            download
+            class="btn btn-download pdf-download"
+            title="Télécharger PDF"
+            >⬇️</a
+          >
+        </div>
+        <a href="contact.vcf" download class="btn contact-btn">📥 Télécharger Contact</a>
       </div>
-
+      <hr class="separator-partners" />
+      <H5 class="text description-text" style="font-style: italic; color:#00529C;">STC Co fournit des solutions sur mesure en automatisation et instrumentation industrielle, en partenariat avec des leaders technologiques.</H5>
       <div class="card-footer">
         <hr class="separator-partners" />
         <p class="partners-title">Nos partenaires</p>
@@ -68,9 +76,16 @@
       </div>
     </div>
 
-    <button id="theme-toggle" class="theme-btn">
-      <span id="theme-icon">🌞</span>
-    </button>
+    <!-- Boutons flottants -->
+    <div class="buttons-wrapper">
+      <button id="theme-toggle" class="theme-btn" title="Mode sombre/clair">
+        <span id="theme-icon">🌞</span>
+      </button>
+      <button id="language-toggle" class="lang-btn" title="Français / English">
+        <span id="lang-icon">🌐</span>
+      </button>
+    </div>
+
     <div id="particles-js"></div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
